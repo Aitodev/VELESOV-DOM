@@ -1,0 +1,816 @@
+@import "global";
+@import "vars";
+@import "fonts";
+
+
+
+// Верхний хедер ( логотип и навигация)
+.header{
+    &__top{
+        border-bottom: 2px solid #b1b1b1;
+    }
+    &__logo{
+        font-size: 68px;
+        text-transform: uppercase;
+        position: relative;
+        font-family: 'gilroy-regular';
+        &-word{
+             position: absolute;
+             font-family: 'aviorte_personal_use_onlyRg';
+             top:-116%;
+             right:37%;
+             color: rgba(0, 0, 0, 0.22);
+             font-size: 126px;
+             span{
+                 position: absolute;
+                 left: -54px;
+                 top:-34px;
+             }
+        }
+    }
+    &__nav{
+        font-weight: 400;
+        font-size: 17px;
+    }
+    &__list{
+        z-index: 50;
+        &-item{
+            font-family: 'gilroy-regular';
+            &--two{
+                margin-left: 63px;
+            }
+            &--three{
+                margin-left: 73px;
+            }
+            &--four{
+                margin-left: 82px;
+            }
+            &--five{
+                margin-left: 89px;
+            }
+        }
+    }
+
+    &__inner{
+        padding: 190px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+}
+
+// Верхний хедер ( логотип и навигация) конец
+.header__logo-info{
+    display: none;
+}
+
+
+
+
+
+// Картинка по центру
+
+.header__intro-name{
+    font-family: 'gilroy-light';
+    font-size: 43px;
+}
+.header__middle-logo{
+    font-size: 31px;
+    letter-spacing: 7px;
+}
+
+.image-block{
+    padding-top: 56.4%;
+    height: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    img{
+        height: 96.4%;
+        margin-top: 2px;
+        position: absolute;
+        top:0;
+        left: 5%;
+    }
+    &__content{
+        position: absolute;
+        right: 150px;
+        top: 200px;
+        &-name{
+            text-transform: uppercase;
+            margin-bottom: 100px;
+            font-family: 'gilroy-regular';
+            max-width: 700px;
+            text-align: right;
+            h1{
+                font-size:75px;
+                color: rgb(255, 255, 255);
+                animation: red .06s ease-in-out infinite alternate;
+            }
+            p{
+                text-align: right;
+                font-size: 30px;
+                color: #fff;
+            }
+        }
+        &-info{
+            text-align: right;
+            font-size: 30px;
+            color: #fff;
+            
+        }
+    }
+}
+@keyframes red {
+    from {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.92),
+      0 0 30px rgba(202,228,225,0.34),
+      0 0 12px rgba(255, 20, 20, 0.52),
+      0 0 21px rgba(255,20,20,0.92),
+      0 0 34px rgba(255,20,20,0.78),
+      0 0 54px rgba(255,20,20,0.92);
+    }
+    to {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.98),
+      0 0 30px rgba(202,228,225,0.42),
+      0 0 12px rgba(255,20,20,0.58),
+      0 0 22px rgba(255,20,20,0.84),
+      0 0 38px rgba(255,20,20,0.88),
+      0 0 60px rgba(255,20,20,1);
+    }
+}
+  
+  
+.image-block__name{
+    margin-top: 40px;
+}
+
+
+
+// Картинка по центру конец
+
+
+
+// Блок о школе
+// .header__bottom{
+//     border-bottom: 2px solid #b1b1b1;
+// }
+// .header__bottom-name{
+//     padding-bottom: 82px;
+//     h3{
+//         font-size: 65px;
+//         font-weight: 300;
+//         font-family: 'gilroy-regular';
+//     }
+// }
+// .header__bottom-content{
+//     font-size: 24px;
+//     flex: 0 1 35%;
+//     position: relative;
+//     span{
+//         position: absolute;
+//         left: -80px;
+//         font-family: 'alinea_typefaceregular';
+//         color: #ee5c4d;
+//         font-size: 140px;
+//         transform: translateY(-25%);
+//     }
+// }
+// .header__bottom-row{
+//     display: flex;
+//     justify-content: space-around;
+//     margin-bottom: 30px;
+// }
+// .header__bottom-buttons{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+// }
+// .header__bottom-content--buttons{
+//     display: flex;
+//     justify-content: space-evenly;
+//     margin-top: 25px;
+//     background-image: url(../images/button.png);
+//     a{
+//         align-self: center;
+//     }
+// }
+
+.buttons-title{
+    font-size: 40px;
+    color: #f56359;
+    font-weight: 700;
+}
+.buttons-subtitle{
+    font-size: 46px;
+    color: #fefdfd;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+// Блок о школе конец
+
+
+
+
+
+
+//  блок курсы
+.programms{
+    &__inner{
+        &-row{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 50px;
+        }
+        &-row + &-row{
+            padding-top: 50px;
+        }
+    }
+
+    // Столбцы
+    &__item{
+        max-width: 750px;
+        width: 100%;
+        border: 1px solid #000;
+        border-radius: 50px;
+        padding: 70px 50px;
+        // Руки
+        &--one{
+            background-repeat: no-repeat;
+            background-size: contain;
+            .programms__name{
+                padding-bottom: 287px;
+            }
+        }
+
+        // Птица
+        &--two{
+            background-repeat: no-repeat;
+            background-size: 80%;
+            background-position: 250px -20px;
+            .programms__name{
+                span{
+                    line-height: 0.1;
+                }
+            }
+        }
+
+        // Тигр
+        &--three{
+            background-repeat: no-repeat;
+            background-size: 70%;
+            background-position: 240px 50px;
+            .programms__name{
+                padding-bottom: 320px;
+            }
+        }
+
+        // Дракон
+        &--four{
+            background-repeat: no-repeat;
+            background-size: 70%;
+            background-position: 250px 20px;
+        }
+    }
+    // Столбцы конец
+
+
+
+    // Имя столбца
+    &__name{
+        h3{
+            padding-bottom: 20px;
+            font-family: 'gilroy-semibold';
+            font-size: 50px;
+            line-height: 0.1;
+            span{
+                font-family: 'gilroy-light';
+                font-size: 30px;
+                font-weight: 300;
+                margin-left: -10px;
+            }      
+        }
+        p{
+            font-family: 'gilroy-light';
+            font-size: 30px;
+        }
+        .kurs{
+            line-height: 0.45;
+        }
+        .lesson{
+            margin-top: 35px;
+        }
+    }
+    // Имя столбца конец
+
+
+
+    // Имя первого списка в столбце
+    &__programm-name{
+        font-family: 'gilroy-regular';
+        font-size: 30px;
+    }
+    // Имя первого списка в столбце конец
+
+
+
+    // 1 список в столбце
+    &__programm-list{
+        height: 280px;
+        li{
+            display: block;
+            font-family: 'gilroy-light';
+            font-size: 25px;
+        }
+    }
+    // 1 список в столбце конец
+
+
+
+    // Доп.информация в столбцах между именем и 1 списком( только во 2 и 4 столбце)
+    &__info{
+        padding-top: 115px;
+        padding-bottom: 130px;
+        font-size: 30px;
+        font-family: 'gilroy-regular';
+
+    }
+    // Доп.информация конец
+
+
+
+    // 2 список
+    &__bonus{
+        text-align: right;
+        padding-bottom: 50px;
+        &-name{
+            color: #f56359;
+            font-family: 'gilroy-regular';
+            font-size: 30px;
+            font-weight: 400;
+        }
+        &-list{
+            height: 100px;
+            
+            li{
+                display: block;
+                font-family: 'gilroy-light';
+                font-size: 25px;
+            }
+        }
+    }
+    // 2 список конец
+
+    // распределение кнопок и цены
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+    // распределение кнопок и цены конец
+
+    // Цена
+    &__price{
+        &-old{
+            font-family: 'gilroy-light';
+            font-size: 35px;
+            background-image: url("../images/linee.png");
+            background-position: -35px 20px;
+            display: inline-block;
+            padding-right: 5px;
+            padding-left: 5px;
+            margin-left: 45px;
+        }
+        &-new{
+            font-family: 'gilroy-semibold';
+            font-size: 50px;
+        }
+    // Цена конец
+
+    }
+    // кнопка записаться
+    &__link{
+        display: inline-block;
+        align-self: center;
+        padding: 20px 60px;
+        border-radius: 35px;
+        background-image: linear-gradient( rgb(238,118,72) 0%, rgb(237,87,75) 100%);
+        font-size: 35px;
+        color: rgb(254, 253, 253);
+    }
+    // кнопка записаться конец
+}
+
+//  блок курсы конец
+
+
+
+
+// Галлерея начало
+.gallery{
+    &__name{
+        border-top: 2px solid #b1b1b1;
+        margin-top: 150px;
+    }
+    &__name{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 45px;
+        font-family: 'gilroy-regular';
+        span{
+            font-family: 'gilroy-light';
+        }
+    }
+}
+.slider__gallery{
+
+}
+.slider__gallery-item{
+    position: relative;
+    text-align: center;
+    img{
+        width: 70%;
+        opacity: 0.56;
+        padding-top: 200px;
+        display: inline-block;
+        border-radius: 5px;
+        border: 1px solid transparent;
+    }
+    p{
+        display: none;
+        text-align: center;
+    }
+}
+.slick-arrow{
+    position: absolute;
+    z-index: 150;
+    height: 40px;
+}
+
+.slick-arrow.slick-prev{
+    left: 30%;
+    cursor: pointer;
+    z-index: 100;
+    background-image: url("../images/gallery/sl-arrow_l.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+}
+.slick-arrow.slick-next{
+    right: 30%;
+    cursor: pointer;
+    z-index: 100;
+    background-image: url("../images/gallery/sl-arrow_r.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.slick-next, .slick-prev button{
+    position: absolute;
+    background-color: transparent;
+}
+.slick-next::before,.slick-prev::before{
+    display: none;
+}
+
+
+
+
+.slider__gallery + .slider__gallery{
+    padding-top: 100px;
+}
+.slick-active{
+    padding-right: 0;
+}
+.slick-center img {
+    width: 100%;
+    padding-top: 80px;
+    // padding-right: 100px;
+    opacity: 1;
+    display: inline-block;
+  }
+.slick-center{
+    padding-bottom: 40px;
+    text-align: center;
+    // padding-right: 10px;
+    p{
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:20px;
+        font-family: 'gilroy-regular';
+        font-size: 25px;
+    }
+}  
+
+// Галлерея конец
+
+
+// Учителя начало
+
+.teacher{
+    padding-top: 50px;
+    &__wrapper{
+        border-top: 2px solid #b1b1b1;
+    }
+    &__name{
+        padding-top: 75px;
+        padding-bottom: 75px;
+        font-family: 'gilroy-regular';
+        font-size: 45px;
+    }
+    &__one{
+        display: flex;
+        padding: 75px 75px;
+        border: 1px solid #000;
+        border-radius: 25px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    &__one + &__one{
+        margin-top: 50px;
+    }
+    &__two{
+        .teacher__images{
+            order: 1;
+            text-align: right;
+        }
+        .teacher__content{
+            order: 0;
+            text-align: right;
+        }
+    }
+    &__images{
+        max-width: 800px;
+        img{
+            width: 89%;
+        }
+    }
+    &__content{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p{
+            font-size: 25px;
+        }
+        p + p {
+            padding-top: 75px;   
+        }  
+    }
+    &__text{
+        span{
+            font-family: 'gilroy-semibold';
+
+        }
+    }
+    &__info{
+        position: relative;
+        font-family: 'gilroy-ultralight';
+        &::before{
+            content: "";
+            position: absolute;
+            background-image: url(../images/teachers/quotes.png);
+            left: 0;
+        }
+        p{
+            opacity:  0.67;
+            max-width: 587px;
+            text-align: center;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                background-image: url(../images/teachers/quotes.png);
+                width: 100px;
+                height: 71px;
+                right: 25px;
+                bottom: -25px;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                background-image: url(../images/teachers/quotesup.png);
+                width: 100px;
+                height: 71px;
+                left: -20px;
+                top: -40px;
+            }
+
+        }
+    }
+    
+}
+
+// Учителя конец
+.header__bottom{
+    &-name{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 65px;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: 'gilroy-regular';
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// 
+
+.heder__botom-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    justify-items: center;
+    
+}
+.heder__botom-column{
+    display: grid;
+    grid-row-gap: 25px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.heder__botom-content{
+    position: relative;
+    padding-left: 50px;
+    font-size: 24px;
+    span{
+        position: absolute;
+        position: absolute;
+        left: -20px;
+        font-family: 'alinea_typefaceregular';
+        color: #ee5c4d;
+        font-size: 140px;
+        transform: translateY(-25%);
+    }
+    h6{
+       
+    }
+  
+.heder__botom--buttons{
+    display: flex;
+    justify-content: space-between;
+    }  
+.heder__botom-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }    
+}
+.heder__botom-buttons__inner{
+    display: flex;
+    background-image: url(../images/button.png);
+    a{
+        align-self: center;
+        position: relative;
+        // &::before{
+        //     position: absolute;
+        //     z-index: 15;
+        //     content: "";
+        //     background-image: url(../images/bgbutton.png);
+        //     width: 500px;
+        //     height: 400px;
+        // }
+    }
+}
+
+
+
+.heder__botom-butons__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../images/button.png);
+    height: 150px;
+}
+.heder__botom-buttons{
+    
+}
+.btn{
+    position: relative;
+    z-index: 5;
+    img{
+        position: absolute;
+        z-index: -1;
+        left: 0;
+    }
+}
+
+
+.heder__botom{
+    &-name{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-transform: uppercase;
+        font-family: 'gilroy-regular';
+    }
+}
+.heder__botom-title{
+    font-family: 'gilroy-bold';
+    font-size: 20px;
+}
+.heder__botom-name{
+    font-size: 65px;
+    text-align: left;
+}
+
+.header__bottom-butons{
+    display: flex;
+}
+
+.heder__bottom-buttons__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header__bottom-content--buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    background-image: url(../images/button.png);
+    a{
+        align-self: center;
+    }
+}
+
+.buttons-title{
+    font-size: 43px;
+    color: #f56359;
+    font-family: 'gilroy-bold';
+}
+.buttons-subtitle{
+    font-size: 46px;
+    color: #fefdfd;
+    font-weight: 400;
+    margin-top: -15px;
+    font-family: 'gilroy-regular';
+}
+
+
+
+
+@import "media";
+
+
+
+
+
+
+
+// #container-custom{
+// 	max-width: 950px;
+// 	margin: 0 auto;
+// 	max-height: 100%;
+// }
+// .slider{
+//  max-width:600px;margin: 20px auto;
+// } 
+// .project__next img, .project__prev img{
+//   width:50px;
+//   height:20px;
+// }
+// img {
+//   max-width: 130px;
+//   width: 100%;
+//   border:1px solid #fff;
+
+// }
+// .slick-slide {
+// padding-top:20px;
+// }
+// .slick-center {
+//   padding-top:0;
+// }
+// .slick-center img {
+//   max-width:160px;
+// }
+
+
+
+
+
+
+
+
+  
+
+// p{
+//     max-width: 694px;
+//     height: 205px;
+// }

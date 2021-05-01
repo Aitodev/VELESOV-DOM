@@ -1,0 +1,1065 @@
+@media ( max-width: 1900px){
+    .programms{
+        &__inner{
+            &-row{
+                display: flex;
+                width: 100%;
+            }
+            &-row + &-row{
+                padding-top: 50px;
+            }
+        }
+        &__item{
+            max-width: 600px;
+            border: 1px solid #000;
+            border-radius: 50px;
+            padding: 70px 50px;
+            padding-right: 50px;
+        }
+    }
+}
+
+@media ( max-width: 1805px){
+    .slick-center img {
+        padding-top: 100px;
+      }
+      .slick-center{
+        p{
+            top:60px;
+        }
+    } 
+}  
+@media ( max-width: 1713px){
+    .header{
+        &__logo{
+            font-size: 50px;
+        }
+    }
+    .header__intro-name{
+        font-size: 33px;
+    }
+}
+@media ( max-width: 1651px){
+    .teacher{
+        &__text{
+            p{
+                font-size: 25px;
+            }
+        }
+        &__info{
+            p{
+                font-size: 23px;
+            }  
+        }
+        &__content{
+            p + p {
+                padding-top: 25px;
+            }
+        }
+    }
+    .image-block__content-name{
+        h1{
+            font-size: 55px;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    .image-block__content-info{
+        font-size: 25px;
+    }
+    .image-block__content{
+        top: 150px;
+    } 
+}
+
+@media ( max-width: 1562px){
+    .teacher{
+        &__text{
+            p{
+                font-size: 22px;
+            }
+        }
+        &__info{
+            p{
+                font-size: 20px;
+            }  
+        }
+        &__content{
+            p + p {
+                padding-top: 25px;
+            }
+        }
+    }  
+    .header{
+        &__list{
+            &-item{
+                &--two{
+                    margin-left: 35px;
+                }
+                &--three{
+                    margin-left: 45px;
+                }
+                &--four{
+                    margin-left: 55px;
+                }
+                &--five{
+                    margin-left: 65px;
+                }
+            }
+        }
+    } 
+    .header__bottom-content--buttons{
+        align-self: center;
+        padding: 25px;
+    }
+    .slick-center img {
+        padding-top: 120px;
+      }
+    .slick-center{
+        p{
+            top:80px;
+        }
+    } 
+}
+
+@media ( max-width: 1538px){
+    .programms{
+        &__inner{
+            &-row{
+                display: flex;
+                width: 100%;
+            }
+            &-row + &-row{
+                padding-top: 50px;
+            }
+        }
+        &__item{
+            max-width: 550px;
+            border: 1px solid #000;
+            border-radius: 50px;
+            padding: 70px 50px;
+            // padding-right: 50px;
+        }
+        .programms__link{
+            font-size: 25px;
+        }
+
+    }
+    
+}
+@media ( max-width: 1500px){
+    .teacher{
+        &__text{
+            p{
+                font-size: 20px;
+            }
+        }
+        &__info{
+            p{
+                font-size: 18px;
+            }  
+        }
+        &__content{
+            p + p {
+                padding-top: 25px;
+            }
+        }
+    }   
+}
+@media ( max-width: 1438px){
+    .teacher{
+        &__text{
+            p{
+                font-size: 18px;
+            }
+        }
+        &__info{
+            p{
+                font-size: 16px;
+            }  
+        }
+        &__content{
+            p + p {
+                padding-top: 25px;
+            }
+        }
+    } 
+    .programms{
+        &__inner{
+            &-row{
+                width: 100%;
+                display: flex;
+            }
+            &-row + &-row{
+                padding-top: 0;
+            }
+        }
+        &__item{
+            margin: 50px auto;
+            max-width: 420px;
+            border: 1px solid #000;
+            border-radius: 50px;
+            padding: 70px 50px;
+            padding-right: 50px;
+        }
+        &__name{
+            h3{
+                font-size: 30px;
+                span{
+                    font-size: 20px;
+                    margin-left: 0;
+                }
+            }
+        }
+        .kurs{
+            font-size: 20px;
+        }
+        &__programm{
+            &-name{
+                font-size: 22px;
+            }
+
+            &-list{
+                li{
+                    font-size: 20px;
+                }
+            }
+        }
+        &__bonus{
+            &-list{
+                li{
+                   font-size: 20px; 
+                }          
+            }
+        }
+        &__info{
+            padding-bottom: 133px;
+        }
+        &__bottom{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .image-block__content-name{
+        h1{
+            font-size: 45px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .image-block__content-info{
+        font-size: 19px;
+    }
+    .image-block__content{
+        top: 150px;
+    } 
+}
+@media ( max-width: 1325px){
+    .teacher{
+        &__text{
+            p{
+                font-size: 16px;
+            }
+        }
+        &__info{
+            p{
+                font-size: 14px;
+            }  
+        }
+        &__content{
+            p + p {
+                padding-top: 25px;
+            }
+        }
+        &__one, &__two{
+            padding: 40px 40px;
+        }
+    }
+    .slick-center img {
+        padding-top: 140px;
+      }
+      .slick-center{
+        p{
+            top:100px;
+        }
+    } 
+    .header{
+        &__logo{
+            font-size: 35px;
+        }
+        &__list{
+            &-item{
+                &--two{
+                    margin-left: 35px;
+                }
+                &--three{
+                    margin-left: 45px;
+                }
+                &--four{
+                    margin-left: 55px;
+                }
+                &--five{
+                    margin-left: 65px;
+                }
+            }
+        }
+    }
+    .header__intro-name{
+        font-size: 23px;
+    } 
+    .buttons-title{
+        font-size: 39px;
+    }
+    .buttons-subtitle{
+        font-size: 42px;
+    }
+}
+@media ( max-width: 1256px){
+    .teacher{
+        &__text{
+            p{
+                font-size: 14px;
+            }
+        }
+        &__info{
+            p{
+                font-size: 12px;
+            }  
+        }
+        &__content{
+            p + p {
+                padding-top: 25px;
+            }
+        }
+    }
+    .header{
+        &__logo{
+            font-size: 35px;
+        }
+        &__list{
+            &-item{
+                font-size: 15px;
+                &--two{
+                    margin-left: 25px;
+                }
+                &--three{
+                    margin-left: 35px;
+                }
+                &--four{
+                    margin-left: 45px;
+                }
+                &--five{
+                    margin-left: 55px;
+                }
+            }
+        }
+    }
+    .image-block__content-name{
+        h1{
+            font-size: 35px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .image-block__content-info{
+        font-size: 16px;
+    }
+    .image-block__content{
+        top: 120px;
+        right: 120px;
+    } 
+    .buttons-title{
+        font-size: 34px;
+    }
+    .buttons-subtitle{
+        font-size: 37px;
+        line-height: 60px;
+    }
+    .btn{
+        padding: 10px 15px;
+    }
+    .heder__botom-buttons{
+        padding-right: 30px;
+    }
+    .programms{
+        &__inner{
+            &-row{
+                display: block; 
+            }
+            &-row + &-row{
+                padding-top: 0;
+            }
+        }
+        &__item{
+            margin: 50px auto;
+            width: 100%;
+            max-width: 900px;
+            border: 1px solid #000;
+            border-radius: 50px;
+            padding: 70px 50px;
+            padding-right: 50px;
+        }
+        &__programm{
+            &-list{
+                li{
+                    font-size: 20px;
+                }
+            }
+        }
+        &__name{
+            h3{
+                span{
+                    display: block;
+                    margin-top: 35px;
+                }
+            }
+        }
+    }
+    .slick-arrow.slick-prev{
+        left: 30%;
+        top:60%;
+    }
+    .slick-arrow.slick-next{
+        right: 30%;
+        top:60%;
+    }
+    .heder__botom-title{
+        font-size: 16px;
+    }
+    .heder__botom-content{
+        font-size: 18px;
+        span{
+            font-size: 90px;
+        }
+    }
+}
+@media ( max-width: 1167px){
+    .header{
+        &__logo{
+            font-size: 30px;
+        }
+        &__list{
+            &-item{
+                font-size: 13px;
+                &--two{
+                    margin-left: 20px;
+                }
+                &--three{
+                    margin-left: 30px;
+                }
+                &--four{
+                    margin-left: 40px;
+                }
+                &--five{
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+    
+    .header__intro-name{
+        font-size: 20px;
+    } 
+    .buttons-title{
+        font-size: 28px;
+    }
+    .buttons-subtitle{
+        font-size: 30px;
+    }
+    .btn{
+        padding: 10px 15px;
+    }
+    .heder__botom-buttons{
+        padding-right: 30px;
+    }
+    .heder__botom-butons__inner{
+        min-height: 200px;
+    }
+}
+@media ( max-width: 1110px){
+    .teacher{
+        &__text{
+            p{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        &__info{
+            p{
+                font-size: 18px;
+                text-align: center;
+                padding-top: 80px;
+            }  
+        }
+        &__content{
+            p + p {
+                padding-top: 25px;
+            }
+        }
+        &__images{
+            text-align: center;
+            padding-bottom: 25px;
+        }
+        &__one{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__two{
+            .teacher__images{
+                order: 0;
+                text-align: center;
+            }
+            .teacher__content{
+                order: 1;
+            }
+        }
+    }
+    .image-block__content{
+        top: 80px;
+        right: 80px;
+    } 
+}
+@media ( max-width: 1000px){
+    .container{
+        padding: 0 25px;
+    }
+    .heder__botom-title{
+        font-size: 16px;
+    }
+    .heder__botom-content{
+        font-size: 18px;
+        span{
+            font-size: 80px;
+            left: 10px;
+        }
+    }
+    
+    .header__bottom-row{
+        width: 100%;
+        display: block;
+        position: none;
+        position: static;
+    }
+    .header__bottom-content{
+        span{
+            position: static;
+            display: block;
+            text-align: center;
+            font-size: 100px;
+            margin-bottom: -25px;
+        }
+        p{
+            text-align: center;
+            br{
+                display: none;
+            }
+        }
+        .five{
+            order: 1;
+        }
+        .two{
+            order: -1;
+        }
+    }
+    .header__bottom-title{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+@media ( max-width: 890px){
+    .container{
+        padding: 0 25px;
+    }
+    .heder__botom-name{
+        text-align: center;
+    }
+    .heder__botom-title{
+        padding-bottom: 15px;
+    }
+    .heder__botom-content{
+        padding-left: 0;
+        span{
+            position: static;
+            display: block;
+            text-align: center;
+        }
+        h6{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 40px;
+        }
+    }
+    .heder__botom-butons__inner{
+       display: flex;
+       flex-direction: column;
+       height: 250px;
+    }
+    .buttons-title{
+        font-size: 55px;
+        font-family: 'gilroy-semibold';
+        margin-bottom: 15px;
+        
+    }
+    .buttons-subtitle{
+        font-size: 55px;
+        font-family: 'gilroy-semibold';
+        margin-left: 145px;
+    }
+    .btn{
+        padding: 20px 75px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+    .heder__botom-row{
+        display: block;
+        width: 100%;
+    }
+    .heder__botom-column{
+        width: 100%;
+        display: block;
+    }
+    .programms{
+        &__inner{
+            &-row{
+                display: block; 
+            }
+            &-row + &-row{
+                padding-top: 0;
+            }
+        }
+        &__item{
+            margin: 50px auto;
+            width: 100%;
+            max-width: 900px;
+            border: 1px solid #000;
+            border-radius: 50px;
+            padding: 70px 50px;
+            padding-right: 50px;
+        }
+        &__programm{
+            &-list{
+                li{
+                    font-size: 20px;
+                }
+            }
+        }
+        &__name{
+            h3{
+                span{
+                    display: block;
+                    margin-top: 35px;
+                }
+            }
+        }
+    }
+}
+@media ( max-width: 800px){
+    .teacher{
+        &__text{
+            p{
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+        &__info{
+            p{
+                font-size: 18px;
+                text-align: center;
+                padding-top: 80px;
+            }  
+        }
+        &__content{
+            p + p {
+                padding-top: 25px;
+            }
+        }
+        &__images{
+            text-align: center;
+            padding-bottom: 25px;
+        }
+        &__one{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__two{
+            .teacher__images{
+                order: 0;
+                text-align: center;
+            }
+            .teacher__content{
+                order: 1;
+            }
+        }
+    }
+    .slick-arrow.slick-prev{
+        left: 29%;
+        top:60%;
+    }
+    .slick-arrow.slick-next{
+        right: 29%;
+        top:60%;
+    }
+    .container{
+        padding: 0;
+    }
+    .programms{
+        .container{
+            padding: 0 5px;
+        }
+    }
+    .header__intro-name{
+        display: none;
+    }
+    .header__list{
+        display: none;
+        position: absolute;
+        top: 130px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        z-index: 15;
+        background-image: url(../images/bgbutton.png);
+        background-size: cover;
+        li{
+            display: block;
+        }
+        li + li{
+            padding-top: 20px;
+        }
+        a{
+            color: #fff;
+            font-size: 30px;
+            display: block;
+            padding: 15px 0;
+        }
+        .header__list-item--two{
+            margin-left: 0;
+        }
+        .header__list-item--three{
+            margin-left: 0;
+        }
+        .header__list-item--four{
+            margin-left: 0;
+        }
+        .header__list-item--five{
+            margin-left: 0;
+        }
+    }
+    .image-block__content{
+        position: absolute;
+        top: 500px;
+        right:350px;
+        &-name{
+            display: block;
+            h1{
+                animation: none;
+                text-transform: none;
+                font-family: 'gilroy-medium';
+                font-weight: 500;
+                font-size: 50px;
+            }
+            p{
+                position: absolute;
+                right: -25px;
+                font-family: 'gilroy-medium';
+            }
+        }
+        &-info{
+            p{
+                position: absolute;
+                top: 100px;
+                text-align:left;
+                font-family: 'gilroy-medium';
+                max-width: 200px;
+            }
+        }
+    }
+    .header__inner{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .header__top{
+        border-bottom: none;
+    }
+    .header__logo{
+        text-transform: none;
+        padding-left: 90px;
+        margin-top: 0;
+        position: relative;
+        &::before,&::after{
+            content:"";
+            position: absolute;
+        }
+        &::before{
+            background-image: url(../images/V.png);
+            width: 48px;
+            height: 64px;
+            left: 5px;
+            top:-15px;
+        }
+        &::after{
+            background-image: url(../images/D.png);
+            width: 39px;
+            height: 60px;
+            left: 45px;
+            top: 10px;
+        }
+    }
+    .header__logo-word{
+        display: none;
+    }
+    .header__logo-info{
+        display: block;
+        font-size: 14px;
+        opacity: 0.75;
+    }
+    .nav__btn{
+        margin-right: 15px;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        &::after,&::before{
+            content: "";
+            width: 100%;
+            height: 2px;
+            border-radius: 2px;
+            background-color: #000;
+            position: absolute;
+        }
+        &::after{
+            top: 0;
+        }
+        &::before{
+            top: 9px;
+        }
+        span{
+            width: 50%;
+            height: 2px;
+            border-radius: 2px;
+            background-color: #000;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        
+    }
+    .image-block{
+        min-height: 800px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        img{
+            position: absolute;
+            width: 65%;
+            height: 65%;
+            top: 5%;
+            left: 35%;
+        }
+    }
+    .image{
+        width: 100%;
+    }
+    .slick-center img {
+        padding-top: 170px;
+      }
+      .slick-center{
+        p{
+            top:140px;
+            font-size: 17px;
+        }
+    } 
+}
+@media ( min-width: 800px){
+    .header__list{
+        display: block !important;
+    }
+}
+
+@media ( max-width: 700px){
+    .image-block__content{
+        position: absolute;
+        top: 500px;
+        right:270px;
+    }
+}
+@media ( max-width: 600px){
+    .image-block__content{
+        position: absolute;
+        top: 500px;
+        right:180px;
+    }
+    .image-block__content-info{
+       p{   
+           max-width: 200px;
+       }
+    }
+}
+@media ( max-width: 650px){
+    .slick-arrow.slick-prev{
+        background-size: 50%;
+        left: 29%;
+        top: 75%;
+    }
+    .slick-arrow.slick-next{
+        background-size: 50%;
+        right: 27%;
+        top: 75%;
+    }
+}
+@media ( max-width: 510px){
+    .image-block{
+        min-height: 800px;
+        width: 100%;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        img{
+            position: absolute;
+            width: 70%;
+            height: 45%;
+            top: 15%;
+            left: 30%;
+        }
+    }
+    .image{
+        width: 100%;
+    }
+    .image-block__content{
+        position: absolute;
+        right: 100px;
+        &-name{
+            display: block;
+            h1{
+
+                font-size: 38px;
+            }
+            p{
+                right: -25px;
+            }
+        }
+        &-info{
+            p{
+                position: absolute;
+                top: 100px;
+                text-align:left;
+                font-family: 'gilroy-medium';
+                max-width: 200px;
+            }
+        }
+    }
+    .heder__botom-butons__inner{
+
+        height: 250px;
+     }
+     .buttons-title{
+         font-size: 32px;
+         font-family: 'gilroy-semibold';
+         margin-bottom: 15px;
+         
+     }
+     .buttons-subtitle{
+         font-size: 32px;
+         font-family: 'gilroy-semibold';
+         margin-left: 105px;
+     }
+     .btn{
+         padding: 20px 75px;
+         border-radius: 10px;
+         font-size: 20px;
+     }
+     .slick-center img {
+        padding-top: 170px;
+      }
+      .slick-center{
+        p{
+            top:150px;
+            font-size: 12px;
+        }
+    } 
+
+}
+@media ( max-width: 510px){
+    .programms__programm{
+        text-align: center;
+    }
+    .programms__bonus{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .teacher__one{
+        border: none;
+    }
+    .teacher__two{
+        .teacher__images{
+            border-radius: 145px;
+            border: 3px solid red;
+            position: relative;
+            width: 160px;
+            height: 170px;
+            img{
+                position: absolute;
+                right: -50px;
+                bottom: -75px;
+                display: inline-block;
+                width: auto;
+                height: 262px;
+            }
+    }
+   
+    }
+
+}
+@media ( max-width: 420px){
+    .programms__link{
+        padding: 15px 30px;
+        font-size: 30px;
+    }
+    .programms__info{
+        font-size: 22px;
+    }
+    .programms__programm{
+        padding-bottom: 80px;
+    }
+    .programms__item--two{
+        .programms__bonus{
+            padding-bottom: 120px;
+        }
+    }
+    .programms__link{
+        margin-bottom: 40px;
+    }
+}
+
+@media ( max-width: 375px) {
+    .image-block__content{
+        position: absolute;
+        right: 50px;
+    }
+    .header__inner{
+        padding: 0;
+        min-height: 120px;
+    }
+    .header__logo{
+        font-size: 24px;
+        text-transform: none;
+    }
+    .header__logo-word{
+        
+        span{
+            font-size: 20px;
+        }
+    }
+}
